@@ -1,5 +1,6 @@
 
 
+
 const colors = {
 
     'primary':      (light = false) => (light ? '#719DF0' : '#5A8DEE'),
@@ -10,9 +11,9 @@ const colors = {
     'info':         (light = false) => (light ? '#00E7E7' : '#00CFDD'),
 
     'light':        (light = false) => (light ? '#A3AFBD' : '#A3AFBD'),
-    'dark':         (light = false) => (light ? '#394CC2' : '#394CC2'),
+    'dark':         (light = false) => (light ? '#394C62' : '#394C62'),
 
-    'UNKNOW':       (light = false) => (light ? '#FFFFFF' : '#000000')
+    'bg':           (light = false) => (light ? '#272E48' : '#1A233A')
 
 }
 

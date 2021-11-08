@@ -1,9 +1,9 @@
 <template>
 
     <div id="home">
-        <Button color="primary" size="sm" value="Primário"/>
-        <Button color="primary" size="md" value="Primário"/>
-        <Button color="primary" size="lg" value="Primário"/>
+        <Button color="secondary" size="sm" value="Small"/>
+        <Button color="primary" size="md" value="Default"/>
+        <Button color="info" size="lg" value="Large"/>
     </div>
 
 </template>
@@ -21,9 +21,13 @@
 
     export default defineComponent({
         name: 'Home',
+
         components: {
             Button
         },
+
+        methods: {
+        }
     })
 </script>
 
